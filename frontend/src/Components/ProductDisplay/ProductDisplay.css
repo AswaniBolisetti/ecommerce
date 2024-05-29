@@ -1,0 +1,118 @@
+.product-display {
+    display: flex;
+    margin: 60px 140px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.product-display-left {
+    display: flex;
+    gap: 17px;
+}
+
+.product-display-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.product-display-img-list img {
+    height: 104px;
+}
+
+.product-display-main-img {
+    width: 435px;
+    height: 467px;
+    margin-right: 15px;
+}
+
+.product-display-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-display-right h1 {
+    color: #2d2c2c;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.product-display-right-star {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    gap: 2px;
+    color: #1c1c1c;
+    font-size: 18px;
+}
+
+.product-display-right-prices {
+    display: flex;
+    gap: 30px;
+    font-size: 23px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.select-size {
+    margin-top: 10px;
+    margin-bottom: -18px;
+}
+
+.product-display-right-price-old {
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.product-display-right-price-new {
+    color: #15798d;
+    margin-left: -15px;
+}
+
+.product-display-right-sizes {
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.product-display-right-sizes div {
+    padding: 10px 16px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product-display-right-sizes .selected {
+    background: rgb(36, 178, 159);
+    color: white; /* Optional: change text color for better contrast */
+}
+
+.product-display-right button {
+    padding: 10px 30px;
+    width: 200px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    background: #0c6b91;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.product-display-right-category {
+    margin-top: 5px;
+}
+
+.product-display-right-category span {
+    font-weight: 600;
+}
+
+.add-to-cart {
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background: rgb(34, 138, 170);
+}

@@ -1,0 +1,55 @@
+.relatedproducts-tag{
+  margin: 2rem;
+}
+.relatedproducts {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    margin-bottom: 50px;
+  }
+  
+  .carousel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+  }
+  
+  .carousel-arrow.left {
+    left: 35px; /* Adjust to your preference */
+}
+
+.carousel-arrow.right {
+    right: 35px; /* Adjust to your preference */
+}
+
+  .relatedproducts-item {
+    width: 80%;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth; /* This ensures smooth scrolling */
+    -webkit-overflow-scrolling: touch; /* For better performance on touch devices */
+  }
+  
+  .relatedproducts-item::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for better UX */
+  }
+  
+  .item {
+    flex: 0 0 calc(100% / 4 - 20px); /* Adjust the width of each item based on the items per page */
+    transition: transform 0.6s;
+    margin: 10px;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+  }
+  
