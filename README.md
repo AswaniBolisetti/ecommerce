@@ -18,8 +18,12 @@ Before you begin, ensure you have the following installed:
 Follow these instructions to set up and run the application locally.
 
 ### 1. Clone the repository
+
+```bash
 git clone https://github.com/AswaniBolisetti/ecommerce.git
 cd ecommerce
+
+
 ### 2. Connect to MongoDB Atlas
 To connect the backend to MongoDB Atlas:
 
@@ -34,6 +38,8 @@ MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/myFirstData
 ### 3. Install Dependencies and run
 Navigate to the different parts of the project and install dependencies and run the application : 
 
-Frontend-> open new terminal -> cd frontend -> npm install -> npm start
-Backend -> open new terminal -> cd backend -> npm install -> node ./index.js
-Admin -> open new terminal -> cd admin -> npm install -> npm run dev
+- Frontend-> open new terminal -> cd frontend -> npm install -> npm start
+
+- Backend -> open new terminal -> cd backend -> npm install -> node ./index.js
+
+- Admin -> open new terminal -> cd admin -> npm install -> npm run dev
