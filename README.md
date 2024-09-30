@@ -20,7 +20,7 @@ Follow these instructions to set up and run the application locally.
 ### 1. Clone the repository
 git clone https://github.com/AswaniBolisetti/ecommerce.git
 cd ecommerce
-2. Connect to MongoDB Atlas
+### 2. Connect to MongoDB Atlas
 To connect the backend to MongoDB Atlas:
 
 Create a MongoDB Atlas account.
@@ -31,7 +31,7 @@ env
 Copy code
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
-3. Install Dependencies and run
+### 3. Install Dependencies and run
 Navigate to the different parts of the project and install dependencies and run the application : 
 
 Frontend-> open new terminal -> cd frontend -> npm install -> npm start
